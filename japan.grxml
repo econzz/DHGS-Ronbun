@@ -1,0 +1,30 @@
+<grammar version="1.0" xml:lang="ja-JP" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+　<rule id="rootRule">
+　　<one-of>
+　　　<item>
+　　　　<tag>いどう</tag>
+　　　　<one-of>
+　　　　　<item> あ </item>
+　　　　</one-of>
+　　　</item>
+　　　<item>
+　　　　<tag>かいてん</tag>
+　　　　<one-of>
+　　　　　<item>い</item>
+　　　　</one-of>
+　　　</item>
+　　　<item>
+　　　　<tag>かくだい</tag>
+　　　　<one-of>
+　　　　　<item> う </item>
+　　　　</one-of>
+　　　</item>
+　　　<item>
+　　　　<tag>まるい</tag>
+　　　　<one-of>
+　　　　　<item> え </item>
+　　　　</one-of>
+　　　</item>
+　　</one-of>
+　</rule>
+</grammar>
